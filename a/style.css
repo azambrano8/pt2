@@ -1,4 +1,9 @@
 h1 {
+<<<<<<< HEAD
 	color: red;
 	text-decoration: underline;
+=======
+	color:blue;
+	text-align:center;
+>>>>>>> 87d73ad8fbe2a9fabcf71687a14bdb90c21289d6
 }

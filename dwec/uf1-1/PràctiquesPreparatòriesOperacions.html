@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bloc Operacions</title>
+    </head>
+    <body>
+        <p><b>3. Mostri a la web el valor d’una variable de cadascun dels seguents tipus:</b> </p>
+        <p id="cadena"></p>
+        <p id="numE"></p>
+        <p id="numR"></p>
+        <p id="boolea"></p>
+        <br>
+
+        <p><b>4. Ensenyi el resultat de les seguents operacions: </b> </p>
+        <p id="suma"></p>
+        <p id="resta"></p>
+        <p id="multiplicacio"></p>
+        <p id="divisio"></p>
+        <p id="concatenar"></p>
+        <p id="comparacio"></p>
+
+        <script>
+            
+            //Albert Zambrano
+            console.log("Start!");
+
+            //3. Mostri a la web el valor d’una variable de cadascun dels següents tipus:
+            var str;
+            str = "Cadena";
+            var numE
+            numE = 1;
+            var numR;
+            numR = 1.56;
+            var boolea;
+            boolea = true;
+            document.getElementById("cadena").innerHTML = str; 
+            document.getElementById("numE").innerHTML = numE; 
+            document.getElementById("numR").innerHTML = numR; 
+            document.getElementById("boolea").innerHTML = boolea; 
+
+
+            //4. Ensenyi el resultat de les següents operacions: 
+
+            document.getElementById("suma").innerHTML = 1 + 1; 
+            document.getElementById("resta").innerHTML = 2,5 - 1; 
+            document.getElementById("multiplicacio").innerHTML = 3 * 3; 
+            document.getElementById("divisio").innerHTML = 556 % 10; 
+            document.getElementById("concatenar").innerHTML =  "hola " + "que tal? ";
+            document.getElementById("comparacio").innerHTML = 1<10 && 10<20; 
+            
+            console.log("End!");
+
+        </script>
+    </body>
+</html>
